@@ -3,7 +3,6 @@
 
 ----
 ## Description
-This repository contains files related to my project on Text Description to Image Generation using Generative Adversarial Network .
 
 The process of translating text into images has been a hot topic of study recently. Synthesizing 
 photorealistic graphics from natural language text descriptions is a great advancement. Text to picture 
