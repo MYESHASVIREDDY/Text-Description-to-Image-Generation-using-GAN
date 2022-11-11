@@ -99,3 +99,4 @@ textset_filenames.txt  and   user_captions.txt
 
 
 C) The outtput results are saved in below path folder
+                             C:\Users\yegne\Desktop\TextImgGan\outputresult
