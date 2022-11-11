@@ -28,7 +28,8 @@ couldn't make a dictionary of the English language and use it to compare the
 provided string to existing words without natural language processing. with the user 
 input as text will be analyzed and based on the input the image will be generated.
 
-#Problem defintion:
+# Problem defintion:
+
 Constructing New Meaning from Existing Images and Text An extremely common 
 but challenging problem to the fields of NLP and Computer Vision is captioning 
 photographs. What we call "text-to-image synthesis" is the transformation of the text 
@@ -49,7 +50,7 @@ looking, people might just describe the furniture they want to a computer and ha
 made for them. With the help of a machine that understands natural language, content 
 producers could work more closely together to make their work.
 
-#Conclusion:
+# Conclusion:
 In this project, I'm presenting an updated version of the neural network with information flow, called 
 "Captioner," that is an integral part of the GAN architecture. Our network architecture may be 
 thought of as a chain: text > picture > text, with the central idea being to use the restored 
