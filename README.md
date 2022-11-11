@@ -19,36 +19,75 @@ transformation as the way you want to draw the sample for each style of images g
 Attention GAN .By inputting textual descriptions of an object into a GUI or online app, photorealistic 
 visuals of that object can be generated.
 
-# Introducation:
-The sub domain of artificial intelligence (AI) "computer vision" allows machines 
-to analyse visual data such as photos, movies, and other digital files to draw 
-conclusions and provide suggestions. word can be predicted and generated using 
-Natural Language Processing by analysing existing data and learning from it. We 
-couldn't make a dictionary of the English language and use it to compare the 
-provided string to existing words without natural language processing. with the user 
-input as text will be analyzed and based on the input the image will be generated.
 
-# Problem defintion:
+# # Text Description to Image Generation using Generative Adversarial Network 
 
-Constructing New Meaning from Existing Images and Text An extremely common 
-but challenging problem to the fields of NLP and Computer Vision is captioning 
-photographs. What we call "text-to-image synthesis" is the transformation of the text 
-into a visual representation. information. These problems are, in a broad sense, identical 
-to those that emerge during linguistic translation. Like various languages may convey 
-the same meaning in different ways, images and text can encode similar information.
- However, due to the multimodal nature of these problems, text-image or image-text 
-conversions are fundamentally distinct. A simple statement like, "This is a magnificent 
-red flower," has few possible translations into French. A broad variety of mental images 
-could correspond to this description if one tried to create one. This multimodal 
-behaviour is not exclusive to image captioning challenges; nonetheless, the sequential 
-nature of language simplifies the difficulty there.
- By using the existing words as a basis for generating new ones, this structure can be put 
-to good use. This makes text-to-image synthesis more challenging than image 
-captioning. The potential uses for image synthesis based on natural language are vast 
-once the technology is ready for widespread use. Instead of spending a lot of time 
-looking, people might just describe the furniture they want to a computer and have it 
-made for them. With the help of a machine that understands natural language, content 
-producers could work more closely together to make their work.
+
+----
+## Description
+This repository contains files related to my project on Text Description to Image Generation using Generative Adversarial Network .
+
+----
+## Dataset
+CUB-200 Dataset has been used for the training of model.
+   [CUB-200](https://www.kaggle.com/datasets/veeralakrishna/200-bird-species-with-11788-images)
+
+## Requirements
+* Python 3.7
+* Tkinter
+* Pandas
+* Numpy
+* Torchvision.transforms
+* Anaconda prompt 
+
+
+
+## Run Model in steps
+---
+$ python3 sampletexts.py
+```
+*Text feature Extraction*
+--------------------------
+```
+$ python3 Global Attention.py
+```
+*Image Generation*
+--------------------------
+```
+$ python3 DAMSM.py
+```
+*Identification for real/fake images *
+-------------------------------------
+```
+$ python3 data.py
+```
+*Training & testing  the data*
+--------------------------
+```
+$ python3 vocabulary.py
+```
+*Training of the Model*
+--------------------------
+```
+$ python3 model.py
+```
+*Test model*
+--------------------------
+```
+$ python3 gui.py
+
+this gui is made using python Tkinter package 
+```
+
+## Testing The Model
+ 
+to run gui write the command python guirun.py
+```
+
+*Test Results*
+--------------
+When you run the guirun.py using above command it will show you welcome screen and will ask you to give the text description.
+
 
 # Conclusion:
 In this project, I'm presenting an updated version of the neural network with information flow, called 
@@ -82,22 +121,3 @@ This command is move into the project folder
 
 			python guirun.py
       
-# To run manually
-
-A) PATH WHERE CAPTIONS ARE LOCATED IS BELOW
-
-C:\Users\yegne\Desktop\TextImgGan\data\birds
-
-B) MAIN FILE WHERE THE CAPTIONS ARE LOADED IS 
-
-textset_filenames.txt  and   user_captions.txt
-
-////////////////////// MANUAL WAY TO RUN THE APPPLICATION //////////////////////
- To Run the application copy and paste below command
-
-				python main.py --cfg cfg/eval_bird.yml
-
-
-C) The outtput results are saved in below path folder
-
-                             C:\Users\yegne\Desktop\TextImgGan\outputresult
