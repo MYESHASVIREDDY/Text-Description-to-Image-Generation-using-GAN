@@ -81,23 +81,6 @@ this gui is made using python Tkinter package
  
 to run gui write the command python guirun.py
 ```
-
-*Test Results*
---------------
-When you run the guirun.py using above command it will show you welcome screen and will ask you to give the text description.
-
-
-# Conclusion:
-In this project, I'm presenting an updated version of the neural network with information flow, called 
-"Captioner," that is an integral part of the GAN architecture. Our network architecture may be 
-thought of as a chain: text > picture > text, with the central idea being to use the restored 
-original text as input to the network. We base our comparison of the existing StackGAN 
-framework to our four different variant implementations. According to our tests, the Captioner 
-module can generate images with more authentic expressions and preservations of primitive 
-elements. To further enhance the image data quality, the embeddings are used in error 
-calculation. Moreover, both synthesised image data and real picture data are useful for 
-bolstering quality assurance.
-
 # To run GUI
 1) Open Anaconda Prompt
 
@@ -119,3 +102,20 @@ This command is move into the project folder
 
 			python guirun.py
       
+*Test Results*
+--------------
+When you run the guirun.py using above command it will show you welcome screen and will ask you to give the text description.
+
+
+# Conclusion:
+In this project, I'm presenting an updated version of the neural network with information flow, called 
+"Captioner," that is an integral part of the GAN architecture. Our network architecture may be 
+thought of as a chain: text > picture > text, with the central idea being to use the restored 
+original text as input to the network. We base our comparison of the existing StackGAN 
+framework to our four different variant implementations. According to our tests, the Captioner 
+module can generate images with more authentic expressions and preservations of primitive 
+elements. To further enhance the image data quality, the embeddings are used in error 
+calculation. Moreover, both synthesised image data and real picture data are useful for 
+bolstering quality assurance.
+
+
