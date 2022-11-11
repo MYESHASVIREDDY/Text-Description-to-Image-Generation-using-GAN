@@ -1,4 +1,10 @@
-# Text-Description-to-Image-Generation-using-GAN
+# # Text Description to Image Generation using Generative Adversarial Network 
+
+
+----
+## Description
+This repository contains files related to my project on Text Description to Image Generation using Generative Adversarial Network .
+
 The process of translating text into images has been a hot topic of study recently. Synthesizing 
 photorealistic graphics from natural language text descriptions is a great advancement. Text to picture 
 is a standardised approach of automatically creating images from text. The use of conditional 
@@ -19,18 +25,11 @@ transformation as the way you want to draw the sample for each style of images g
 Attention GAN .By inputting textual descriptions of an object into a GUI or online app, photorealistic 
 visuals of that object can be generated.
 
-
-# # Text Description to Image Generation using Generative Adversarial Network 
-
-
-----
-## Description
-This repository contains files related to my project on Text Description to Image Generation using Generative Adversarial Network .
-
 ----
 ## Dataset
 CUB-200 Dataset has been used for the training of model.
    [CUB-200](https://www.kaggle.com/datasets/veeralakrishna/200-bird-species-with-11788-images)
+   
 
 ## Requirements
 * Python 3.7
